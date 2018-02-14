@@ -1,0 +1,173 @@
+/* CSS Document */
+
+*{
+  padding:0 ;
+  margin : 0 ;
+}
+
+
+body{
+	text-align: center;
+	margin: 15px 0;
+}
+
+
+
+/* conteneur général */
+div#container{
+	width: 790px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/***** Entete ********/
+/********************/ 
+#container>header{
+ height: 131px;
+ position : relative ;
+}
+
+#container>header h1{
+	position: relative ;
+	padding : 20px 0 0 20px ;
+}
+
+
+#container>header h2{
+	padding: 0px 0 0 25px ;
+}
+
+ /****************/
+/* header links */
+/***************/
+#header-links {
+	position: absolute;
+	top: 30px; right: 30px;
+}
+
+#header-links li{
+  display : block ;
+  float : left ;
+}
+
+#header-links a {	
+  padding : 5px 5px 5px 5px ;
+  margin-left : 0 5px 0 5px ;	
+}
+
+/***** Menu **********/
+/********************/ 
+#container>nav ul{
+  text-align : left ;
+	height: 40px;
+	width: 790px;	
+}
+
+#container>nav ul  li {
+	float:left ;
+}
+
+#container>nav ul li a{
+  padding: 0 15px;
+  display : block ;
+}
+
+/***** Corps *********/
+/********************/ 
+div#corps{
+  position : relative ;
+	width: 780px;	
+	margin: 0px auto;
+	overflow:hidden ;
+}
+
+/***** Contenu principal ********/
+/*******************************/ 
+#corps>article{
+	width: 450px;
+	padding : 10px 20px; 
+	margin: 0px 0px 0 5px ; 
+	min-height : 200px ;
+	float : left ;
+}
+
+#corps>article h3{
+	padding: 5px 0 5px 24px;
+}
+
+#corps>article p{
+  padding-left : 25px ;
+  text-align:justify ;
+}
+
+#corps>article ul{
+  list-style-position: outside;
+  padding : 5px 0 10px 30px ;
+}
+
+
+/***** Contenu secondaire *******/
+/*******************************/
+#corps>aside{
+  text-align : justify ;
+  float : left ;
+  width : 245px ;
+  margin : 5px 5px 10px 10px ;
+  padding : 10px ;
+  min-height : 200px ;
+  border-radius: 10px;
+  -moz-border-radius : 10px;
+  -webkit-border-radius : 10px;
+  -webkit-border-top-left-radius: 10px; /* pour Chrome */ 
+  -webkit-border-top-right-radius: 10px; /* pour Chrome */ 
+   
+   -moz-box-shadow: 1px 1px 5px #555;
+   -webkit-box-shadow: 1px 1px 5px #555; 
+    box-shadow: 1px 1px 5px #555;
+   
+}
+
+
+#corps>aside h1{ color : rgb(89,89,89) ;}
+
+#corps>aside h2{ color : rgb(120,120,120) ;}
+
+#corps>aside h3{ color : rgb(136,136,136) ;}
+
+#corps>aside ul{ padding-left : 20px ;}
+
+/******* Tables *************/
+/***************************/
+
+
+table
+{
+  border-collapse: collapse;
+  margin : 10px 20px ;
+}
+
+th
+{
+  padding : 5px 10px ;
+  text-align : center ;
+}
+
+td
+{
+  padding : 3px ;
+  text-align : center ;
+}
+
+
+/***** Pied de page ********/
+/**************************/
+
+#container footer{
+	width: 790px;
+	height: 57px;
+	text-align: center;	
+  padding: 15px 0;
+  clear : left ;
+}
+
+ 

@@ -1,0 +1,79 @@
+/*
+		@font-face {
+				font-family: 'HelveticaNeueLT-UltraLight';
+				src: url('../font/helveticalt25ultralight.eot');
+				src: url('../font/helveticalt25ultralight.eot?#iefix') format('embedded-opentype'),
+						 url('../font/helveticalt25ultralight.woff') format('woff'),
+						 url('../font/helveticalt25ultralight.ttf') format('truetype'),
+						 url('../font/helveticalt25ultralight.svg#helveticalt25ultralight') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+
+@font-face {
+    font-family: 'helvetica_neuelightcondobl';
+    src: url('../font/helveticaneue-lightcondobl-webfont.eot');
+    src: url('../font/helveticaneue-lightcondobl-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/helveticaneue-lightcondobl-webfont.woff') format('woff'),
+    url('../font/helveticaneue-lightcondobl-webfont.ttf') format('truetype'),
+    url('../font/helveticaneue-lightcondobl-webfont.svg#helvetica_neuelightcondobl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'capsuularegular';
+    src: url('../font/capsuula-webfont.eot');
+    src: url('../font/capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/capsuula-webfont.woff') format('woff'),
+         url('../font/capsuula-webfont.ttf') format('truetype'),
+         url('../font/capsuula-webfont.svg#capsuularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vegurlight';
+    src: url('../font/vegur-light-webfont.eot');
+    src: url('../font/vegur-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/vegur-light-webfont.woff') format('woff'),
+         url('../font/vegur-light-webfont.ttf') format('truetype'),
+         url('../font/vegur-light-webfont.svg#vegurlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+@font-face {
+    font-family: 'walkway_boldregular';
+    src: url('../font/walkway_bold-webfont.eot');
+    src: url('../font/walkway_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/walkway_bold-webfont.woff') format('woff'),
+         url('../font/walkway_bold-webfont.ttf') format('truetype'),
+         url('../font/walkway_bold-webfont.svg#walkway_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'swiss_721thin';
+    src: url('../font/swiss_721_thin-webfont.eot');
+    src: url('../font/swiss_721_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/swiss_721_thin-webfont.woff') format('woff'),
+         url('../font/swiss_721_thin-webfont.ttf') format('truetype'),
+         url('swiss_721_thin-webfont.svg#swiss_721thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+

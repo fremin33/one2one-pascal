@@ -1,0 +1,50 @@
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{
+
+	nav{
+		width:235px;
+		height:562px;
+	
+		}
+	
+	
+
+	#home,#concept,#methode,#salle,#personnalTrainer,#tarifs,#contact
+	{
+		width:960px;
+		height:665px;
+		margin: 0 auto;
+		background:none;
+		
+		-webkit-background-size: cover; 
+ 	 -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+		
+	}
+
+
+
+
+
+
+
+.slide_inside{
+	
+	height:562px;
+	width:629px;
+	top:40px;
+	left:293px;
+	
+	
+	
+}
+
+
+
+
+
+}

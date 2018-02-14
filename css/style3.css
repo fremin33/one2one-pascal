@@ -1,0 +1,336 @@
+/*************************************/
+
+
+/*		CONCEPT						*/
+
+
+/***********************************/
+
+li#presFitOne {
+    width: 260px;
+    height: 195px;
+    margin-bottom: 15px;
+    transition: all ease 1s;
+}
+
+.view1 p.text-cross {
+    line-height: 1rem;
+    font-size: 10px;
+}
+
+li#presFitOne:first-child,
+li#presFitOne:nth-child(3) {
+    margin-right: 35px;
+}
+
+li#presFitOne:hover {
+    background-color: #E31F67;
+    opacity: 0.5;
+    color: white;
+}
+
+#h2FitOne {
+    background: none;
+}
+
+li#presFitOne:hover h2 {
+    color: white;
+}
+
+.view1 .mask,
+.view1 .content {
+    width: 260px;
+    margin-top: 25px;
+}
+
+.view1 p {
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+#text_concept>p {
+    margin-top: 15px;
+}
+
+#text_concept ul {
+    margin-top: 12px;
+}
+
+
+/*************************************/
+
+
+/*		BIKING 2.0						*/
+
+
+/***********************************/
+
+#fit_one {
+    background: url(../images/one2one_2017/biking_04.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.head_page {
+    width: 350px;
+}
+
+.fitOneVideo {
+    width: 584px;
+    padding-left: 45px;
+    padding-top: 80px;
+}
+
+#fit_one h2 {
+    padding-left: 136px;
+    position: absolute;
+    top: 191px;
+    z-index: 100;
+}
+
+#fit_one h2 a:link {
+    border: 1px solid rgba(227, 31, 103, 0.5);
+    padding: 5px;
+    background: url(../images/logo-calendrier.png) no-repeat 25px 9px;
+    padding-left: 82px;
+    margin-top: 10px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all ease 1s;
+}
+
+#fit_one h2 a:hover {
+    transform: scale(1.2);
+    color: #E31F67;
+}
+
+span.textReservation {
+    padding-right: 31px;
+    color: #E31F67;
+}
+
+
+/*************************************/
+
+
+/*		CROSS TRAINING						*/
+
+
+/***********************************/
+
+#fit_team {
+    background: url(../images/one2one_2017/cross_01.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#fit_team .slide_inside h1 {
+    margin-bottom: 10px;
+    width: 315px;
+}
+
+#fit_team h2 a:link {
+    border: 1px solid rgba(227, 31, 103, 0.5);
+    padding: 5px;
+    background: url(../images/logo-calendrier.png) no-repeat 25px 9px;
+    padding-left: 82px;
+    margin-top: 10px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all ease 1s;
+}
+
+#fit_team h2 a:hover {
+    transform: scale(1.2);
+    color: #E31F67;
+}
+
+span.textReservation {
+    padding-right: 31px;
+    color: #E31F67;
+}
+
+#salle {
+    background: url(../images/one2one_2017/cross_02.jpg) center center;
+    background-size: cover;
+}
+
+#salle #text_salle {
+    margin-top: 0px;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 605px;
+    height: 354px;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+}
+
+#slider ul li img {
+    width: 100%;
+}
+
+p.control_prev,
+p.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+p.control_prev:hover,
+p.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+p.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+p.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+    margin-right: 0px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+
+h1.titre {
+    text-align: center;
+}
+
+.crossTrainingVideo {
+    width: 584px;
+    padding-left: 45px;
+    padding-top: 24px;
+}
+
+
+/*************************************/
+
+
+/*		TARIFS						*/
+
+
+/***********************************/
+
+#tarifs {
+    background: url(../images/one2one_2017/biking_02.jpg) center center;
+    background-size: cover;
+}
+
+#tarifs .slide_inside h1.titreTarif {
+    color: #e31f67;
+    margin-bottom: 30px;
+}
+
+#tarifs .slide_inside h2.textTarif {
+    color: white;
+    font-size: 2em;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tarif_fit_group {
+    height: 430px;
+    background: rgba(227, 31, 103, 0.7);
+}
+
+.logo1 {
+    transition: all ease 1s;
+}
+
+.logo2 {
+    position: absolute;
+    right: 68px;
+    top: 222px;
+    transition: all ease 1s;
+}
+
+.logo2:hover,
+.logo1:hover {
+    transform: scale(1.1);
+}
+
+#tarifs .slide_inside h1.cac {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#tarifs .slide_inside ul {
+    background: rgba(0, 0, 0, 0.5);
+    height: 134px;
+    width: 476px;
+    padding-left: 0px;
+    position: relative;
+    top: -11%;
+    left: 40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#tarif_fit_group ul li h3 {
+    font-size: 1em;
+}
+
+#tarif_fit_group ul li:first-child {
+    padding-top: 24px;
+}
+
+#tarifs#tarifs ul li h3+p.timeAbo {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.slide {
+    margin-top: 0px;
+}
+
+#concept {
+    background: url(../images/one2one_2017/biking_02.jpg) center center;
+    background-size: cover;
+}

@@ -1,0 +1,1919 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	list-style:none;
+}
+
+.clear{clea:both;}
+
+body,html{
+	
+	background:black;
+	
+	font-size:13px;
+	color:white;
+	font-family:swiss_721thin,vegurlight,capsuularegular,helveticacondensed-light, helvetica; 
+}
+
+sup{
+	font-size: 8px;
+}
+
+/*********************************/
+/* COULEURS						*/
+/*******************************/
+.couleurRose{
+	color:#e31f67;
+}
+
+.couleurGrise{
+	/*color:#6a6a6c;*/
+	color:#9a9a9c;
+}
+
+.couleurGrisFonce{
+	color:#3a3a3c;
+}
+
+
+.couleurBlanc{
+	color:#fff;
+}
+
+
+.mefItalique{
+	font-style:italic;
+}
+
+.texteImportant{
+	font-size:17px;
+	font-weight:bold;
+}
+
+
+/*********************************/
+/* ALTERNANCE PLUS				*/
+/*******************************/
+
+ul.listePlus li:nth-child(2n){
+	background:url(../images/plus_blanc.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlus li:nth-child(2n+1){
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlusRoseGris li:nth-child(2n){
+	background:url(../images/plus_gris.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlusRoseGris li:nth-child(2n+1){
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+
+}
+
+ul.listePlusRose li{
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+	
+}
+
+
+
+/*********************************/
+/* MENU							*/
+/*******************************/
+
+nav{
+	
+	z-index:10;
+	width:235px;
+	height:600px;	
+	position:fixed;	
+}
+
+nav #topNav{
+	background: #3d3d3f;	
+	height:540px;
+}
+
+
+nav #bottomNav{
+	
+	margin-top:10px;
+	height:50px;
+	text-indent:-9999px;
+	width:235px;
+	background:#e31f67 url(../images/personnal.png) center no-repeat;
+}
+
+
+nav h1{
+	text-align:right;
+	padding-top:5px;
+	padding-right:5px;	
+}
+
+h1#logo{
+	margin-bottom:110px;
+}
+
+
+nav li{
+	display:block;
+	padding-right:20px;
+	text-align:right;
+}
+
+
+nav ul li{
+	color:white;
+	/*font-family: helvetica_neuelightcondobl,helvetica;*/
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration: none;
+	font-weight:100;
+}
+
+
+
+nav ul li:hover{
+	color: #e31f67;
+	background: url(../images/bg_survol.png) right no-repeat;  
+		
+}
+
+nav h2{
+	color:black;
+	text-align:center;	
+	font-weight:200;
+}
+
+
+nav h3{
+	text-align:center;
+	font-weight:200;
+	
+}
+
+nav .navigation li.active{
+	color: #e31f67;
+	background: url(../images/bg_survol.png) right no-repeat;  
+		}
+
+
+/*********************************/
+/* SLIDE						*/
+/*******************************/
+.slide{	
+	width: 100%;
+  	height: 100%;  	
+	position:absolute;
+}
+
+#slide1{
+  background: red;
+  top: 0%;
+}
+
+#slide2 {
+  background: yellow;
+  top: 150%;
+}
+
+#slide3 {
+  background: #6ab29f;
+  top: 300%;
+}
+
+#slide4{
+  background: #333a3e;
+  top: 450%;
+}
+
+#slide5{
+  background: #d0482b;
+  top: 600%;
+}
+
+#slide6 {
+  background: #231f20;
+  top: 750%;
+}
+
+#slide7{
+  background: #231f20;
+  top: 900%;
+}
+
+
+
+#slide1,#slide2,#slide3,#slide4,#slide5,#slide6,#slide7{
+background: black;
+}
+
+
+
+#concept,#fit_one,#fit_group,#salle,#personnalTrainer,#tarifs,#contact
+{
+	width:1024px; /*1024px*/
+	height: 690px;			/*709px;*/
+	
+	/*
+	width:100%;
+	height:100%;
+	 -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+	
+	*/
+	
+	margin: 0 auto 0 auto;
+	position:relative;
+}
+
+.slide_inside{
+	background: url(../images/trame3.png) no-repeat ; 
+	width:671px;
+	height:600px;
+	position: absolute;
+	top:40px;
+	left:293px;
+}
+
+/*************************************/
+/* GENERIQUES 						*/
+/***********************************/
+
+
+.head_page{
+	color:#e31f67;
+	margin-left:30px;
+	margin-top : 10px;
+	margin-bottom:10px;
+	background: url(../images/croix.png) no-repeat right top ;
+	width :145px;
+	
+}
+
+
+
+.slide_inside p{
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:7px;
+	text-align:justify;
+	
+
+}
+
+
+
+
+
+
+
+
+/*************************************/
+/*		CONCEPT						*/
+/***********************************/
+#concept{
+	background: url(../images/fond-concept2.png) no-repeat ;
+
+}
+
+#text_concept>p{
+	margin-top:50px;
+	margin-left:60px;
+	margin-right:60px;
+	text-align:justify;
+}
+
+
+#text_concept ul{
+	margin-top:20px;
+}
+
+#text_concept ul.liste1 li{
+	margin-left:60px;
+	padding-left:15px;
+	margin-right:60px;
+	line-height: 1;
+}
+
+#text_concept ul+p{
+	margin-top : 15px;
+}
+
+#text_concept ul+p+p{
+	margin-top : 15px;
+}
+
+
+
+
+
+
+
+#haut_droit{
+	float:left;
+	margin-top:65px;
+	margin-left:15px;
+}
+
+#Concept_bas{
+clear:both;
+margin-top:15px;
+}
+
+#Concept_bas li{
+	display :inline;
+}
+
+/*.slide_inside img{border:1px solid #eee;}*/
+
+#imgConceptFitOne img, #imgConceptFitGroup img{
+	height:150px;
+	float : right;
+	display:block;
+	margin-left:50px;
+	width: 170px;
+}
+
+#imgConceptFitOne{
+	/*margin-left:31px;*/
+	
+	
+	
+}
+
+
+#text_concept #imgConceptFitGroup{
+	clear:both;
+	margin-top:40px;
+	/*margin-left:15px;*/
+}
+
+
+#text_concept #imgConceptFitGroup p, #text_concept #imgConceptFitOne p{
+padding-top:20px;
+line-height: 1.5;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+.main_navigation{
+	margin:30px 50px 20px 50px;
+}
+
+
+.view1 {
+   width: 270px;
+   height: 263px;
+   margin-right:10px;
+   
+  border:1px solid #eee;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+ }
+.view1 .mask,.view1 .content {
+   width: 270px;
+   height: 263px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view1 img {
+   display: block;
+   position: relative;
+}
+.view1 h2 {
+   text-transform: uppercase;
+	font-weight:bold;   
+   position: relative;
+   font-size: 24px;
+  padding: 5px 5px 5px 0px;
+    margin: 30px 0 0 70px;
+   
+   
+  
+   
+   
+}
+
+.view1 p {
+   
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding:10px 30px 10px 30px;
+   margin:0;
+   text-align: justify;
+   line-height: 1;
+}
+
+
+#h2FitOne{
+	background:url(../images/grosPlusBlanc.png) no-repeat 15px ;
+	
+}
+
+#h2FitGroup{
+	background:url(../images/grosPlusRose.png) no-repeat left 15px ;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************/
+/*		FIT ONE						*/
+/***********************************/
+#fit_one{
+	background: url(../images/program.png) no-repeat ;
+}
+
+
+#sousMenuFitOne{
+	margin-left:10px;
+	margin-top :20px;
+	position:relative;
+	
+}
+
+#sousMenuFitOne li{
+	display:inline;
+	margin-right:10px;
+
+}
+
+
+#slide2 #methode{
+	position :relative;
+	
+}
+
+#sousMenuFitOne a img, #sousMenuFitOne a:hover img, #sousMenuFitOne a:visited img{
+	text-decoration:none;
+	border:1px solid #eee;
+	outline:none;
+	
+}
+
+
+.light{
+background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+
+color: #FFF;
+cursor: pointer;
+display: block;
+font-size: 12px;
+font-weight: bold;
+height: 118px;
+position: absolute;
+width: 128px;
+z-index: 50;
+top:2px;
+padding:80px 10px 0 10px;
+font-size: 14px;
+text-decoration: none;
+text-align : center;
+opacity: 0;
+font-family: tahoma;
+}
+
+#enSavoirPlusDiagnostique {
+	background: url(../images/survolFitOneGris.png) no-repeat scroll 0 0 transparent;
+	left:2px;	 /*167px*/
+}
+
+
+#enSavoirPlusProgram {
+background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+	left:167px;	 /*167px*/
+}
+
+
+#enSavoirPlusSalle{
+	background: url(../images/survolFitOneGris.png) no-repeat scroll 0 0 transparent;
+	left:332px;	
+	
+}
+
+#enSavoirPlusAccompagnement{
+	background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+	left:497px;	
+}
+
+/****************************************************************************************/
+
+
+#myModal-diagnostic h1{
+	text-align: center;
+	width:300px;
+	margin:0 auto;
+	padding-top:10px;
+}
+
+#myModal-diagnostic h1+p{
+	text-align: center;
+	width : 540px;
+	margin:0 28px;
+	padding-top:20px;
+}
+
+
+#myModal-diagnostic ul{
+	margin:0;
+	padding:10px 0 0 0 ;
+	background: url(../images/fitOneDiag.png) no-repeat 50% 50%;
+	overflow: hidden;
+
+	
+}
+
+#myModal-diagnostic ul li{
+	width : 230px;
+	float : left;
+		margin:0;
+	padding:0;
+	
+}
+
+
+#myModal-diagnostic ul li:nth-child(2n+1){
+
+	padding-left:20px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(2n+1) p,#myModal-diagnostic ul li:nth-child(2n+1) h2{
+	text-align: right;
+}
+
+
+
+#myModal-diagnostic ul li:nth-child(2n){
+
+	padding-left:100px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(3),#myModal-diagnostic ul li:nth-child(4){
+
+	padding-top:25px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(2n) p,#myModal-diagnostic ul li:nth-child(2n) h2{
+	text-align: left;
+}
+
+
+#myModal-diagnostic ul+p{
+	clear: both;
+	background-color:#e31f67;
+	margin:10px 20px;
+	padding:5px 10px;
+	border-radius: 10px;
+	font-size: 14px;
+
+	
+}
+
+/*********************************************************************************************************************************/
+#myModal-salle ul{
+	width:600px;
+	height:450px;
+	background: url(../images/fitOneEquip.png) no-repeat 50% 50%;
+}
+
+#myModal-salle h2{
+	text-align:left;
+	font-size:14px;
+	color:#E31F67;
+}
+
+
+#myModal-salle ul li{
+	position:absolute;
+	line-height: 1;
+}
+
+#myModal-salle #equi1{
+	top:64px;
+	left:226px;
+}
+#myModal-salle #equi2{
+	top:84px;
+	left:306px;
+}
+
+#myModal-salle #equi3{
+	top:123px;
+	left:358px;
+}
+
+#myModal-salle #equi4{
+	top:163px;
+	left:383px;
+}
+
+#myModal-salle #equi5{
+	top:220px;
+	left:390px;
+}
+
+#myModal-salle #equi6{
+	top:299px;
+	left:368px;
+}
+
+#myModal-salle #equi7{
+	top:349px;
+	left:309px;
+}
+
+#myModal-salle #equi8{
+	top:363px;
+	left:189px;
+}
+
+#myModal-salle #equi9{
+	top:332px;
+	left:17px;
+}
+#myModal-salle #equi10{
+	top:292px;
+	left:54px;
+}
+
+#myModal-salle #equi11{
+	top:233px;
+	left:10px;
+}
+
+#myModal-salle #equi12{
+	top:190px;
+	left:11px;
+}
+
+#myModal-salle #equi13{
+	top:128px;
+	left:13px;
+}
+
+#myModal-salle #equi14{
+	top:93px;
+	left:48px;
+}
+
+#myModal-salle .alignRight h2{
+	text-align: right;
+}
+
+#myModal-salle h1{
+	width:190px;
+	margin : 0 auto;
+	text-align:center;
+}
+
+
+
+/*********************************************************************************************************************************/
+#myModal-accompagnement h1{
+	margin : 0 auto;
+	width:235px;
+	text-align: center;
+	margin-bottom:50px;
+	margin-top:10px;
+} 
+
+#myModal-accompagnement p{
+	margin:20px 60px 20px 60px;
+}
+
+
+#myModal-accompagnement ul{
+	padding:45px 58px 20px 57px;
+	background: url(../images/flecheBas.png) no-repeat  48% 20%;
+	overflow: hidden;
+}
+
+
+#myModal-accompagnement ul li{
+	width : 75px;
+	height:100px;
+	background: url(../images/silhouette.png) no-repeat  50% 20%;
+	float :left;
+	margin:0 22px 0 0 ;
+	padding:0;
+	
+}
+#myModal-accompagnement ul li p {
+	margin:0;
+	padding:0;
+	padding-top:70px;
+	text-align: center;
+}
+
+
+
+/*********************************************************************************************************************************/
+
+.reveal-modal{
+	color:#3d3d3f;
+}
+
+
+.accordeonFitOne{
+	position :relative;
+	width: 600px; 
+	height: 534px;
+}
+
+.accordeonFitOne ol{
+	list-style:none;
+	width: 600px; 
+	height:534px;
+}
+
+
+
+
+	#fit_one_program_menu {position :relative;width: 600px; height: 534px; overflow: hidden; }
+
+#fit_one_program_menu  li{position:absolute;  width: 600px;height:534px; }
+
+
+
+#fit_one_program_menu  li h2{ 
+	position: absolute; 
+	top: 0px;
+	right: 0px; 
+	width: 22px; 
+    
+    height:534px;
+    text-align: center;
+       
+    
+     
+    }
+    
+#fit_one_program_menu  li h2 img{
+	padding-top:5px;
+	border:none;
+}   
+ 
+
+/*#fit_group_menu  li.active h2{ background: #55354a; }*/
+
+
+
+/* Put the following in your IE stylesheet */
+
+#fit_one_program_menu  li h2
+{ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
+
+
+
+/* Manually place slides to begin */
+#fit_one_program-slide-1 { position: absolute; top: 0; right: 88px; z-index: 5; }
+
+#fit_one_program-slide-2 { position: absolute; top: 0; right: 66px; z-index: 4;  }
+
+#fit_one_program-slide-3 { position: absolute; top: 0; right: 44px; z-index: 3;}
+
+#fit_one_program-slide-4{ position: absolute; top: 0; right:22px; z-index: 2;}
+
+#fit_one_program-slide-5{ position: absolute; top: 0; right: 0; z-index: 1;}
+
+
+
+
+#fit_one_program-slide-1 h2{background-color:#e31f67;}
+#fit_one_program-slide-2 h2{background-color:#3f3e40;}
+#fit_one_program-slide-3 h2{background-color:#979698;}
+#fit_one_program-slide-4 h2{background-color:#3f3e40;}
+#fit_one_program-slide-5 h2{background-color:#979698;}
+
+
+
+
+/* content */
+
+
+/*****************************************/
+/*     FIT ONE PROGRAM 					*/
+/***************************************/
+
+
+#content-fit_one_program-slide-1 h1{
+
+	width : 150px;
+	margin: 0 auto;
+	padding-top:42px;
+	background: url(../images/logoFitOne.png) no-repeat 50% 0;
+	text-align: center;
+	
+}
+
+
+#content-fit_one_program-slide-1>p{
+	padding-top:20px;
+	color:#E31F67;
+	text-align:center;
+	width : 380px;
+	margin: 0 auto;
+}
+
+
+#content-fit_one_program-slide-1 ul li {
+	width:230px;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+	margin-top:30px;
+	
+}
+
+#content-fit_one_program-slide-1 ul li h2{
+	width:87px;
+	height:55px;
+	font-size:13px;
+	position:absolute;
+	background-color: #E31F67;
+	border-radius: 10px;
+	text-align: center;
+	color:white;
+	margin:0 5px;
+	padding-top:20px;
+}
+
+#content-fit_one_program-slide-1 ul li:nth-child(even) h2{
+	left:0;
+}
+
+#content-fit_one_program-slide-1 ul li:nth-child(odd) h2{
+	right:0;
+}
+
+#content-fit_one_program-slide-1 ul li:nth-child(odd) p{
+	
+	text-align:right;
+	padding-top:10px;
+	padding-right:95px;
+	font-size:12px;
+}
+
+#content-fit_one_program-slide-1 ul li:nth-child(even) p{
+	padding-top:10px;
+	text-align:left;
+		padding-left:95px;
+		font-size:12px;
+}
+
+
+
+#fit_one_program_content{
+	position:absolute;
+	top:30px;
+	left:0px;
+	width:460px;
+	padding-top:10px;
+	padding-left:15px;
+			
+}
+
+#fit_one_program_content .contentFitOneProgram{
+	display:none;
+	position:absolute;
+	
+}
+
+#fit_one_program_content .open{
+	display:block;
+	opacity:0;
+}
+
+
+#fit_one_program_content .active{
+	opacity:1;
+}
+
+.contentFitOneProgram h1.head_page{
+	width: 280px;
+}
+
+
+
+.reveal-modal  p, .reveal-modal ul li{
+								
+			line-height:1.2;
+	text-align:justify;
+	margin-bottom : 7px;
+			
+		}
+
+.reveal-modal ul li {
+	margin-left : 30px;
+	padding-left:25px;
+	margin-right:20px;
+}
+
+/*contenu presentation fit one */
+		#fit_one_program_content #content-fit_one_program_-slide-1{
+					
+			
+			
+			
+		}
+		
+		
+/*************************/
+/* FIT CARDIO			*/
+/***********************/
+
+		
+		#content-fit_one_program-slide-2{
+			left : 40px;
+			width:460px;
+		}
+		
+
+		#content-fit_one_program-slide-2 h1{
+				width :100px;
+				height:85px;
+				background-color:#E31F67;
+				border-radius: 10px;
+				margin:0px auto;
+				text-align: center; 
+				padding-top:15px;
+				font-size: 25px;
+				color:white;
+		}
+
+		#content-fit_one_program-slide-2>ul{
+			padding-top: 20px;
+			width:390px;
+			margin:0 auto;
+		}
+
+		#content-fit_one_program-slide-2>ul>li{
+			padding-bottom:15px;
+			
+		}
+
+		#content-fit_one_program-slide-2 h2{
+			width:150px;
+			margin:0 auto;
+			padding-top:40px;
+			background: url(../images/logoFitOne.png) no-repeat 50% 0;
+			text-align: center;	
+		}		
+
+
+
+/*************************/
+/* FIT PLYOMETRIC		*/
+/***********************/
+
+		#content-fit_one_program-slide-3{
+			left : 60px;
+			width:460px;				
+		}
+		
+		#content-fit_one_program-slide-3 h1{
+				width :160px;
+				height:100px;
+				background-color:#E31F67;
+				border-radius: 10px;
+				margin:0px auto;
+				text-align: center; 
+				padding-top:25px;
+				font-size: 25px;
+				color:white;
+		}
+		
+		#content-fit_one_program-slide-3>ul{
+			padding-top: 40px;
+			width:390px;
+			margin:0 auto;
+		}
+		
+			
+		#content-fit_one_program-slide-3>ul>li{
+			padding-bottom: 40px;		
+		}
+
+		#content-fit_one_program-slide-3 h2{
+			width:150px;
+			height: 70px;
+			margin:0 auto;
+			background: url(../images/logoFitPlyo.png) no-repeat;
+		}
+		
+
+/*************************/
+/* FIT SCULPT			*/
+/***********************/
+	
+		#content-fit_one_program-slide-4{
+			left : 80px;
+			width:460px;
+				
+		}
+
+
+		#content-fit_one_program-slide-4 h1{
+				width :100px;
+				height:85px;
+				background-color:#E31F67;
+				border-radius: 10px;
+				margin:0px auto;
+				text-align: center; 
+				padding-top:15px;
+				font-size: 25px;
+				color:white;
+		}
+		
+		
+		#content-fit_one_program-slide-4>ul{
+			padding-top: 20px;
+			width:390px;
+			margin:0 auto;
+		}
+		
+			
+		#content-fit_one_program-slide-4>ul>li{
+			padding-bottom: 20px;		
+		}
+		
+		#content-fit_one_program-slide-4>ul>li p{
+			margin-bottom: 3px;		
+		}
+		
+		#content-fit_one_program-slide-4 h2{
+			width:230px;
+			height: 60px;
+			margin:0 auto;
+			background: url(../images/logoFitSculpt.png) no-repeat;
+		}
+		
+
+/*************************/
+/* FIT WELLNESS			*/
+/***********************/
+
+
+		#content-fit_one_program-slide-5{
+			left : 100px;
+			width:460px;				
+		}
+		
+		
+		#content-fit_one_program-slide-5 p{
+		
+		width:400px;
+		padding-left:55px;
+			
+		}
+		
+		
+		#content-fit_one_program-slide-5 h1{
+				width :150px;
+				height:100px;
+				background-color:#E31F67;
+				border-radius: 10px;
+				margin:0px auto;
+				text-align: center; 
+				padding-top:25px;
+				margin-bottom:25px;
+				font-size: 25px;
+				color:white;
+		}
+
+
+		#content-fit_one_program-slide-5>ul{
+			padding-top: 20px;
+			width:475px;
+			margin:0 auto;
+		}
+		
+			
+		#content-fit_one_program-slide-5>ul>li{
+			padding-bottom: 20px;		
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************/
+/*		FIT GROUP					*/
+/***********************************/
+#fit_group{
+	background: url(../images/program.png) no-repeat ;
+}
+
+#fit_group .head_page{
+	width:180px;
+}
+
+#fit_group p{
+	width : 450px;
+}
+
+
+
+#accordion{
+	position :relative;
+	width: 671px; 
+	height: 600px;
+}
+
+#accordion ol{
+	list-style:none;
+}
+
+
+
+
+	#fit_group_menu {position :relative;width: 671px; height: 600px; overflow: hidden; }
+
+#fit_group_menu  li{position:absolute;  width: 605px;height:600px; }
+
+
+
+#fit_group_menu  li h2{ 
+	position: absolute; 
+	top: 0px;
+	right: 0px; 
+	width: 22px; 
+    
+    height:600px;
+    text-align: center;
+       
+    
+     
+    }
+    
+#fit_group_menu  li h2 img{
+	padding-top:5px;
+	border:none;
+}   
+ 
+
+/*#fit_group_menu  li.active h2{ background: #55354a; }*/
+
+
+
+/* Put the following in your IE stylesheet */
+
+#fit_group_menu  li h2
+{ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
+
+
+
+/* Manually place slides to begin */
+
+#fit_group-slide-1 { position: absolute; top: 0; right: 152px; z-index: 8; }
+
+#fit_group-slide-2 { position: absolute; top: 0; right: 132px; z-index: 7; }
+
+#fit_group-slide-3 { position: absolute; top: 0; right: 110px; z-index: 6;  }
+
+#fit_group-slide-4 { position: absolute; top: 0; right: 88px; z-index: 5;}
+
+#fit_group-slide-5{ position: absolute; top: 0; right:66px; z-index: 4;}
+
+#fit_group-slide-6{ position: absolute; top: 0; right: 44px; z-index: 3;}
+
+#fit_group-slide-7{ position: absolute; top: 0; right: 22px; z-index: 2;}
+
+#fit_group-slide-8{ position: absolute; top: 0; right: 0px; z-index: 1;}
+
+
+#fit_group-slide-1 h2{background-color:#e31f67;}
+#fit_group-slide-2 h2{background-color:#979698;}
+#fit_group-slide-3 h2{background-color:#3f3e40;}
+#fit_group-slide-4 h2{background-color:#e31f67;}
+#fit_group-slide-5 h2{background-color:#979698;}
+#fit_group-slide-6 h2{background-color:#3f3e40;}
+#fit_group-slide-7 h2{background-color:#e31f67;}
+#fit_group-slide-8 h2{background-color:#3f3e40;}
+
+
+
+/* content */
+
+#fit_group_content{
+	position:absolute;
+	top:30px;
+	left:0px;
+	width:480px;
+			
+}
+
+#fit_group_content .contentFitGroup{
+	display:none;
+	position:absolute;
+}
+
+#fit_group_content .open{
+	display:block;
+	opacity:0;
+}
+
+
+#fit_group_content .active{
+	opacity:1;
+}
+
+
+#fit_group_content>li>p{
+			
+			color:white;
+			width:420px;
+			margin-bottom:30px;
+		}
+		
+
+
+#fit_group_content h1{
+	margin-top : 50px;
+	margin-left:10px;
+	padding-left:20px;
+	margin-bottom:30px;
+	background:url(../images/plus_blanc.png) no-repeat 0 50% ;
+	font-size : 18px;
+}
+
+#fit_group_content h2{
+	font-size : 14px;
+	text-align: right;
+	margin-right:32px;
+	background: url(../images/logo-calendrier.png) no-repeat right;
+	line-height: 42px;
+	height: 42px;
+	padding-right : 50px;
+	padding-left : 20px;
+	
+}
+
+#fit_group_content ul{
+	background-color: white;
+	width : 420px;
+	overflow: hidden;
+		margin-left :29px;
+	margin-bottom:30px;
+	 
+	
+}
+
+#fit_group_content ul li{
+	float:left;
+	width : 140px;
+	height:135px; 
+	margin:0;
+	padding:0;
+
+}
+
+
+#fit_group_content li ul li p{
+	color:black;
+	width :120px;
+	text-align: center;	
+	font-size: 10px;
+	margin:0;
+	padding : 0 5px;
+	
+}
+
+#fit_group_content li ul li p.texteGros{
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom:0;
+	
+}
+
+
+/*FIT GROUP BIKING */
+		#fit_group_content #content-fit_group-slide-1{
+					
+			width:480px;
+			
+			
+		}
+		
+		
+	#fit_group_content #content-fit_group-slide-1 ul{
+					
+			
+		
+			
+			
+		}
+		
+		
+		#fit_group_content #content-fit_group-slide-1 p{
+			
+			
+			margin-bottom:10px;
+					
+			
+		
+			
+			
+		}
+		
+		
+		
+		
+		
+
+		
+/*contenu fit biking */
+		#fit_group_content #content-fit_group-slide-2{
+		
+			
+			left:44px;
+			
+			
+
+			
+		}
+		
+		
+		
+		
+/*contenu fit barre */
+		#fit_group_content #content-fit_group-slide-3{
+			
+			left:66px;				
+		}
+		
+		#fit_group_content #content-fit_group-slide-3 h1{
+			
+			margin-top : 10px;
+			
+		}
+		#fit_group_content #content-fit_group-slide-4 h1, 
+		#fit_group_content #content-fit_group-slide-5 h1, 
+		#fit_group_content #content-fit_group-slide-6 h1, 
+		#fit_group_content #content-fit_group-slide-7 h1{
+		
+		
+			
+			margin-top : 30px;
+			
+		}	
+
+/*contenu fit timer */
+		#fit_group_content #content-fit_group-slide-4{
+			
+			left:88px;
+			
+		}
+		
+/*contenu fit equilibre */
+		#fit_group_content #content-fit_group-slide-5{
+			
+			left:110px;
+			
+		}	
+
+/*contenu fit senior */
+		#fit_group_content #content-fit_group-slide-6{
+			
+			left:132px;
+			
+		}
+
+/*team training */
+		#fit_group_content #content-fit_group-slide-7{
+			
+			left:132px;
+			
+		}	
+
+/*team training */
+		#fit_group_content #content-fit_group-slide-8{
+			
+			left:154px;
+			
+		}		
+	
+
+
+
+/*************************************/
+/*		SALLE						*/
+/***********************************/
+#salle{
+	background: url(../images/fond_salle.png) no-repeat ;
+}
+
+#salle p{
+	margin-left:0;
+}
+
+#salle #text_salle{
+
+	margin-top:53px;
+	
+	margin-left:35px;
+	padding-left : 15px;
+	margin-right:50px;
+	margin-bottom:30px;
+	background:url(../images/plus_rose.png) 0 3%  no-repeat;
+}
+
+
+#salle #img2{
+	padding-top:30px;
+}
+
+#salle img{
+	border:none;
+}
+
+
+/*************************************/
+/*		PERSONNAL TRAINER			*/
+/***********************************/
+#personnalTrainer{
+	background: url(../images/fond_coach.jpg) no-repeat ;
+}
+
+#personnalTrainer p{
+	margin-left:0;
+	margin-right:0;
+	text-align:left;
+}
+
+
+#personnalTrainer img{
+	border:0;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+
+#personnalTrainer #alex{
+	margin-left:15px;
+}
+
+
+#personnalTrainer #pascal{
+	margin-left:8px;
+}
+
+
+section.personnalT{
+	background: #3d3d3f;
+	float:left;	
+	width:160px;
+	height:515px;
+	margin-left:116px;
+	
+}
+
+
+section.personnalT h2{
+	font-size:15px;	
+	padding-bottom:20px;
+	text-align: center;
+	
+}
+
+
+#personnalTrainer .slide_inside>p{
+	clear : both;
+	padding-top:10px;
+	padding-left:30px;
+}
+
+
+
+/*************************************/
+/*		TARIFS						*/
+/***********************************/
+#tarifs{
+	background: url(../images/program.png) no-repeat ;
+}
+
+#tarifs .slide_inside{
+}
+
+
+
+#tarifs p{
+		color:black;
+		margin-left:15px;
+		font-size :11px;
+	
+	
+}
+#tarifs ul {
+	margin:15px;
+}
+
+#tarifs ul li h3{
+	font-size :16px;
+	color:#E31F67;	
+	text-transform:uppercase;
+}
+
+#tarifs ul li h3 span{
+	
+	color:black;	
+	
+}
+
+#tarifs ul li h3+p{
+	font-size :10px;
+	margin-right:0;
+	text-align: left;
+}
+
+#tarifsFitOne{
+	background-color: white;
+	overflow: hidden;
+	margin : 50px 50px 10px 50px;
+}
+
+#tarif_fit_one{
+	float:left;
+	width:260px;
+	
+	padding : 10px;
+}
+
+#tarif_fit_buddy{
+	float:right;
+	width:260px;
+	margin: 10px;
+	background-color: #E31F67;
+}
+
+#tarif_fit_buddy ul li h3, #tarif_fit_group ul li h3{
+	color:white;
+}
+
+
+
+#tarifs h1{
+	font-weight: bold;
+	color:black;
+	margin-left:15px;
+	
+}
+
+#tarif_fit_buddy h1{
+	color: white;
+}
+
+
+#tarif_fit_buddy {
+	margin-top:142px;
+}
+
+#tarif_fit_buddy h3{
+font-size :16px;
+	
+	text-transform:uppercase;
+	margin-left: 14px;
+}
+
+
+ h1 sup{
+	font-size: 10px;
+	
+}
+
+#tarif_fit_group{
+	background-color: #E31F67;
+	margin : 10px 50px;
+	height:100px;
+}
+
+#tarif_fit_group h1{
+	color:white;
+		float:right;
+		font-weight:bold;
+	padding-top:25px;
+	padding-right:50px;
+}
+
+
+#tarif_fit_group h1+p{
+	color:white;
+	float:right;
+	padding-right:30px;
+}
+
+
+#tarif_fit_group{
+	margin-top:15px;
+}
+
+#tarif_fit_group ul{
+	float:left;
+	width:260px;
+	margin: 25px;
+}
+
+#tarif_fit_group ul li{
+	padding-bottom:10px;
+}
+
+#tarif_fit_team{
+	background-color: white;
+	margin : 10px 50px;
+	height:100px;
+}
+
+#tarif_fit_team div{
+	width:310px;
+	float:left;
+	padding-top:25px;
+	padding-left:10px;
+}
+
+#tarif_fit_team ul{
+	padding-top:20px;
+}
+
+#tarif_fit_team ul li{
+	padding-top:5px;
+}
+
+
+
+/*
+
+#tarifs h3+p{
+	padding-top:5px;
+}
+
+
+
+
+
+
+
+#tarif_fit_one h3{
+	
+	background: #3d3d3f url(../images/plus_rose.png) no-repeat bottom right;
+	
+	float:left;
+}
+
+#tarifs ul{
+	margin-top:20px;
+}
+
+#tarifs ul li{
+height :85px;
+	margin:10px 20px;
+}
+
+
+
+#tarif_fit_one li{
+	
+	clear:both;
+	background: #3d3d3f;
+	
+}
+
+#tarif_fit_one li p{
+	margin-left: 110px;
+}
+
+#tarif_fit_one li:nth-child(1){
+	width : 420px;
+}
+
+#tarif_fit_one li:nth-child(2){
+	width : 340px;
+}
+
+#tarif_fit_one li:nth-child(3){
+	width : 260px;
+}
+
+
+
+
+#tarif_fit_one .prix{
+	color:#e31f67;
+}
+
+#tarifs p.detailPrix{
+	font-size:10px;
+}
+
+
+#tarif_fit_group .prixGris{
+	color:#3d3d3f;
+}
+
+
+
+#titre_tarif_fit_group{
+position:absolute;
+bottom:5px;
+right:20px;
+width:180px;
+color:white;
+}
+
+
+#tarif_fit_group{
+
+position:absolute;
+top:220px;
+right:0px;
+}
+
+#tarif_fit_group li{
+	float:right;
+	clear:both;
+	background: #e31f67;
+	
+}
+
+
+#tarif_fit_group p{
+	margin-left:5px;
+	text-align:right;
+	margin-right:110px;
+}
+
+
+#tarif_fit_group h3{
+	
+	background: #e31f67 url(../images/plus_gris.png) no-repeat top left;
+	
+	float:right;
+}
+
+
+
+#tarif_fit_group li:nth-child(1){
+	width : 260px;
+}
+
+#tarif_fit_group li:nth-child(2){
+	width : 340px;
+}
+
+#tarif_fit_group li:nth-child(3){
+	width : 420px;
+}*/
+
+
+/*************************************/
+/*		CONTACT						*/
+/***********************************/
+#contact{
+	background: url(../images/fond_contact.jpg) no-repeat ;
+}
+
+.slide_inside_contact{
+	width:671px;
+	height:600px;
+	position: absolute;
+	top:40px;
+	left:293px;
+}
+
+.slide_inside_contact #hautContact{	
+	margin-top:300px;
+	background-color: #3d3d3f;
+	height:240px;
+}
+
+.slide_inside_contact .droite{
+	width:337px;
+}
+	
+.slide_inside_contact .gauche {
+	width : 334px;
+}
+
+.slide_inside_contact .droite, .slide_inside_contact .gauche {
+	float:left;
+}
+
+.slide_inside_contact #hautContact h1{
+	margin-top : 10px;
+}
+
+
+.slide_inside_contact #hautContact h1, .slide_inside_contact #hautContact p {
+	font-size: 18px;
+	text-align:right;
+	position:relative;
+	right:20px;
+	
+}
+
+
+
+
+
+.slide_inside_contact #hautContact  h1{
+	float:right;
+	width:120px;
+	position:relative;
+	right:20px;
+	background:url(../images/plus_rose.png) no-repeat left center;
+}
+
+
+
+.slide_inside_contact #hautContact p{
+	clear:both;
+}
+
+
+
+
+
+.slide_inside_contact #basContact
+{
+	margin-top:10px;
+	background: #e31f67;
+	height:50px;
+	text-align:right;
+	font-size : 16px;
+	
+	
+}
+
+
+
+.slide_inside_contact #prenezContact{
+	
+	width : 190px;
+	margin-top : 120px;
+	float:right;
+
+	background:url(../images/plus_rose.png) no-repeat left center;
+	
+}
+.slide_inside_contact #prenezContact a{
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+
+
+
+
+

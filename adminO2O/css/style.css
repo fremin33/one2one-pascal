@@ -1,0 +1,37 @@
+label{
+	display: inline;
+}
+
+
+.wrapper{
+	margin-top:60px;
+}
+
+
+table.listeClients{
+	width : 100%;
+}
+
+table.listeClients th{
+	background-color: #3D3D3F;
+	color:white;
+	width:20%;
+	
+}
+
+table.listeClients td{
+	width:20%;
+	text-align:center;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+
+#listeDesInscripts, #information{
+	color: white;
+}
+
+
+#corps{
+    margin-top: 50px;
+}

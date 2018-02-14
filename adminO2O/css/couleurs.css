@@ -1,0 +1,92 @@
+body{
+ background: #caced1;
+}
+
+
+
+/* conteneur général */
+div#container{
+
+}
+
+/***** Entete ********/
+/********************/ 
+#container>header{
+  background: #caced1 url(images/header.jpg) no-repeat center top;
+}
+
+#container>header h1{ }
+
+#container>header h1 a{ color: #fff;}
+
+#container>header h2{ color: rgb(219,219,219); }
+ /****************/
+/* header links */
+/***************/
+#header-links {
+	color: #C6DDEE;
+}
+
+
+#header-links a {	
+	color: #fff;
+}
+#header-links a:hover {
+	color: #D4FF55;	
+}
+
+/***** Menu **********/
+/********************/ 
+#container>nav ul{ background: #81C524 url(images/menu.jpg) no-repeat;}
+
+#container>nav ul li a{ color: #fff; background: url(images/sep.jpg) no-repeat 100% 100%;}
+
+#container>nav ul li a:hover { color: #3b5e0b; }
+
+#container>nav ul li#current a { color: #3b5e0b; }
+
+/***** Corps *********/
+/********************/ 
+div#corps{  background-color : white; }
+
+/***** Contenu principal ********/
+/*******************************/ 
+#corps>article{ 	background: white url(images/box.jpg) no-repeat top left;  color : rgb(89,89,89) ; }
+
+#corps>article h3{ background: url(images/flower3.gif) no-repeat center left; color : rgb(89,89,89) ;}
+
+#corps>article p{ color : rgb(89,89,89) ; }
+
+#corps>article ul{ list-style: none url(images/bullet.gif); }
+
+#corps>article ul a{ color : rgb(0,64,255) ; }
+  
+#corps>article ul a:hover{ color : rgb(0,144,240);}
+
+/***** Contenu secondaire *******/
+/*******************************/
+#corps>aside{ color : rgb(89,89,89) ; background-color:  rgb(233,242,251); }
+
+/******* Tables *************/
+/***************************/
+
+
+th, td{ border: 1px #444 solid ;}
+
+th { color: white; background-color: rgb(130,197,30); }
+
+table img{
+	width : 50px;
+	height :30px;
+}
+
+
+/***** Pied de page ********/
+/**************************/
+
+#container>footer { color: #C6DDEE;	background: #caced1 url(images/footer.jpg) no-repeat center top; }
+
+#container>footer a { color: #fff; }
+
+#container>footer a:hover{ color: #white; }
+ 

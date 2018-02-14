@@ -1,0 +1,170 @@
+div#calendrier{
+	background-color: #3d3d3f;
+	width:840px;
+	float:left;
+}
+
+.lesCours{
+	width : 100px;
+	float :left;
+	
+	
+	
+}
+
+td{
+		position:relative;
+			z-index:5;
+		
+		}
+
+
+
+
+
+
+.lesCours .item{
+	outline :1px solid black;
+	width :80px;
+	height:50px;
+	margin :10px;
+	font-size:10px;
+	padding:0;
+	
+	
+	
+}
+
+
+
+
+ p{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	
+}
+
+
+#titreMois{
+	color:white;
+	margin-bottom :20px;
+	font-size :16px;
+	text-transform: uppercase;
+}
+
+#titreMois p{
+	
+	text-align:center;
+	line-height:25px;
+	width : 70%;
+	margin: 15px auto;
+}
+
+#titreMois a,  #titreMois a:hover, #titreMois a:visited{
+	color:#E31F67;
+	text-decoration :none;
+	font-size :25px;
+}    
+
+#titreMois #preDate{
+	float:left;
+}
+
+#titreMois #nextDate{
+	float:right;
+}
+
+table.calendrierFitGroup{
+	width :800px;
+	margin:0 auto;
+	
+	 border-collapse: separate;
+        border-spacing: 5px 8px; /* Nombre de pixels d'espace horizontal (5px), vertical (8px) */
+	
+}
+
+table.calendrierFitGroup .heure{
+	width:50px;
+}
+
+
+table.calendrierFitGroup tr.contentCalendrier{
+	height : 50px;
+}
+
+
+table.calendrierFitGroup th{
+	border :none;
+	color:#fff;
+	text-transform: uppercase;
+	width:80px;
+	vertical-align: top;
+		font-size:10px;
+		text-align: center;
+}
+
+table.calendrierFitGroup th span{
+	color :#e31f67;
+}
+
+table.calendrierFitGroup td{
+	background-color: #e31f67;
+	margin:10px;
+	width:80px;
+	position :relative;
+		z-index:1;
+	
+	
+}
+
+table.calendrierFitGroup td.cours{
+	background-color: #fff;
+	color:black;
+	text-transform: uppercase;
+	
+}
+
+table.calendrierFitGroup td p{
+margin :0;
+padding :0 0 0 5px;
+font-size: 10px;
+	
+}
+
+table.calendrierFitGroup .nbPlace{
+	position:absolute;
+	top :0;
+	right:5px;
+	font-size: 10px;
+}
+
+.lesCours .nbPlace{
+	position:absolute;
+	top :10px;
+	right:15px;
+	font-size: 10px;
+}
+
+table.calendrierFitGroup .item{
+	background:url(../images/plus_rose.png) no-repeat 90% 80%;
+}
+
+.modal-body p{
+	margin : 10px 10px;
+	
+}
+
+#idFit, #idCours{
+	display:none;
+	position: absolute;
+}
+
+#desinscriptionCours{
+	margin-left:190px;
+}
+#inscriptionCours{
+	margin-left:50px;
+}

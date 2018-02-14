@@ -1,0 +1,2205 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+a:link, a:visited, a:hover, a:active{
+
+/*color:#E31F67;*/
+color:#e37b7e;
+}
+
+a.haut{
+	position:relative;
+	z-index:80;
+}
+
+
+ul{
+	list-style:none;
+}
+
+.clear{clea:both;}
+
+body,html{
+	
+	background:black;
+	
+	font-size:13px;
+	color:white;
+	font-family:walkway_boldregular;
+	letter-spacing: 2px;
+}
+
+sup{
+	font-size: 8px;
+}
+
+a img{
+	border:none;
+	outline:none;
+}
+
+
+/*********************************/
+/* COULEURS						*/
+/*******************************/
+.couleurRose{
+	color:#e31f67;
+}
+
+.couleurGrise{
+	/*color:#6a6a6c;*/
+	color:#9a9a9c;
+}
+
+.couleurGrisFonce{
+	color:#3a3a3c;
+}
+
+
+.couleurBlanc{
+	color:#fff;
+}
+
+.couleurNoir{
+	color:#000000;
+}
+
+.mefItalique{
+	font-style:italic;
+}
+
+.texteImportant{
+	font-size:17px;
+	font-weight:bold;
+}
+
+
+/*********************************/
+/* ALTERNANCE PLUS				*/
+/*******************************/
+
+ul.listePlus li:nth-child(2n){
+	background:url(../images/plus_blanc.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlus li:nth-child(2n+1){
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlusRoseGris li:nth-child(2n){
+	background:url(../images/plus_gris.png) no-repeat left 5px;
+
+}
+
+
+ul.listePlusRoseGris li:nth-child(2n+1){
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+
+}
+
+ul.listePlusRose li{
+	background:url(../images/plus_rose.png) no-repeat left 5px;
+	
+}
+
+
+
+/*********************************/
+/* MENU							*/
+/*******************************/
+
+nav{
+	
+	z-index:10;
+	width:235px;
+	height:600px;	
+	/*position:fixed;*/
+	position:absolute;	
+	top:24px;
+	left:30px;
+}
+
+nav #topNav{
+	background: #3d3d3f;	
+	height:540px;
+}
+
+
+nav #bottomNav{
+	
+	margin-top:10px;
+	height:50px;
+	text-indent:-9999px;
+	width:235px;
+	background:#e31f67 url(../images/personnal.png) center no-repeat;
+}
+
+
+nav h1{
+	text-align:right;
+	padding-top:5px;
+	padding-right:5px;	
+}
+
+h1#logo{
+	margin-bottom:110px;
+}
+
+
+nav li{
+	display:block;
+	padding-right:20px;
+	text-align:right;
+}
+
+
+nav ul li{
+	color:white;
+	text-transform:uppercase;
+	font-size:16px;
+	text-decoration: none;
+	font-weight:100;
+	
+}
+
+
+
+nav ul li:hover{
+	color: #e31f67;
+	background: url(../images/bg_survol.png) right no-repeat;  
+		
+}
+
+nav h2{
+	color:black;
+	text-align:center;	
+	font-weight:200;
+}
+
+
+nav h3{
+	text-align:center;
+	font-weight:200;
+	
+}
+
+nav .navigation li.active{
+	color: #e31f67;
+	background: url(../images/bg_survol.png) right no-repeat;  
+		}
+
+
+nav ul li a:link, nav ul li a:visited,nav ul li a:hover, nav ul li a:active{
+	color:white;
+	text-decoration: none
+}
+
+nav ul li.active a{
+	color:#E31F67;
+}
+
+/*********************************/
+/* SLIDE						*/
+/*******************************/
+.slide{	
+	width: 100%;
+  	height: 100%;  	
+  	margin-top:50px;
+  	
+	/*position:absolute;  pour le deroulement*/ 
+}
+/*
+#slide1{
+  background: red;
+  top: 0%;
+}
+
+#slide2 {
+  background: yellow;
+  top: 150%;
+}
+
+#slide3 {
+  background: #6ab29f;
+  top: 300%;
+}
+
+#slide4{
+  background: #333a3e;
+  top: 450%;
+}
+
+#slide5{
+  background: #d0482b;
+  top: 600%;
+}
+
+#slide6 {
+  background: #231f20;
+  top: 750%;
+}
+
+#slide7{
+  background: #231f20;
+  top: 900%;
+}
+
+#slide8{
+  background: #231f20;
+  top: 1050%;
+}
+
+*/
+#slide1,#slide2,#slide3,#slide4,#slide5,#slide6,#slide7,#slide8{
+background: black;
+}
+
+
+
+#concept,#fit_one,#fit_group,#salle,#personnalTrainer,#tarifs,#contact,#fit_team,#planning
+{
+	width:1024px; /*1024px*/
+	height: 690px;			/*709px;*/
+	
+	/*
+	width:100%;
+	height:100%;
+	 -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+	
+	*/
+	
+	margin: 0 auto 0 auto;
+	position:relative;
+}
+
+.slide_inside{
+	background: url(../images/trame3.png) no-repeat ; 
+	width:671px;
+	height:600px;
+	position: absolute;
+	top:40px;
+	left:293px;
+}
+
+/*************************************/
+/* GENERIQUES 						*/
+/***********************************/
+
+
+.head_page{
+	color:#e31f67;
+	margin-left:30px;
+	margin-top : 10px;
+	margin-bottom:10px;
+	background: url(../images/croix.png) no-repeat right top ;
+	width :145px;
+	
+}
+
+
+
+.slide_inside p{
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:7px;
+	text-align:justify;
+	
+
+}
+
+.textCenter{
+	text-align: center;
+}
+
+
+
+
+
+
+/*************************************/
+/*		CONCEPT						*/
+/***********************************/
+#concept{
+	background: url(../images/fond/51.jpg) no-repeat ;
+
+}
+
+#text_concept>p{
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:60px;
+	text-align:justify;
+}
+
+
+#text_concept ul{
+	margin-top:20px;
+}
+
+#text_concept ul.liste1 li{
+	margin-left:60px;
+	padding-left:15px;
+	margin-right:60px;
+	line-height: 1;
+}
+
+#text_concept ul+p{
+	margin-top : 15px;
+}
+
+#text_concept ul+p+p{
+	margin-top : 15px;
+}
+
+
+#text_concept p.pascal{
+	width:500px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+#haut_droit{
+	float:left;
+	margin-top:65px;
+	margin-left:15px;
+}
+
+#Concept_bas{
+clear:both;
+margin-top:15px;
+}
+
+#Concept_bas li{
+	display :inline;
+}
+
+/*.slide_inside img{border:1px solid #eee;}*/
+
+#imgConceptFitOne img, #imgConceptFitGroup img{
+	height:150px;
+	float : right;
+	display:block;
+	margin-left:50px;
+	width: 170px;
+}
+
+#imgConceptFitOne{
+	/*margin-left:31px;*/
+	
+	
+	
+}
+
+
+#text_concept #imgConceptFitGroup{
+	clear:both;
+	margin-top:40px;
+	/*margin-left:15px;*/
+}
+
+
+#text_concept #imgConceptFitGroup p, #text_concept #imgConceptFitOne p{
+padding-top:20px;
+line-height: 1.5;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+.main_navigation{
+	margin:13px 50px 20px 50px;
+}
+
+.main_navigation a:link, .main_navigation a:visited, .main_navigation a:hover, .main_navigation a:active {
+	color:white;
+}
+
+
+.view1 {
+   width: 270px;
+   height: 263px;
+   margin-right:10px;
+   
+  border:1px solid #eee;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+ }
+.view1 .mask,.view1 .content {
+   width: 415px;
+   height: 263px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view1 img {
+   display: block;
+   position: relative;
+}
+.view1 h2 {
+   text-transform: uppercase;
+	font-weight:bold;   
+   position: relative;
+   font-size: 24px;
+  padding: 5px 5px 5px 0px;
+    margin: 45px 0 0 10px;
+   
+    
+}
+
+
+
+
+
+.view1 p {
+   
+   font-size: 12px;
+   position: relative;
+   /*color: #fff;*/
+   padding:10px 30px 10px 30px;
+   margin:0;
+   text-align: justify;
+   line-height: 1;
+}
+
+
+.view1 .mask2{
+	width:130px;
+	height:270px;
+}
+
+
+.view1 .mask2 h2{
+	margin-top:130px;
+}
+
+
+.view1 .mask2  p{
+	padding:10px 5px;
+	
+	
+}
+
+
+#h2FitOne{
+	background:url(../images/grosPlusRose.png) no-repeat 100px ;
+	
+}
+
+#h2FitGroup{
+	background:url(../images/grosPlusBlanc.png) no-repeat 80px ;	
+}
+
+#h2FitTeam{
+	background:url(../images/grosPlusNoir.png) no-repeat 45px top ;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+#presFitOne{
+	width:410px;
+	height:130px;
+	background-color: #000;
+	opacity:0.5;
+	float:left;
+	margin-bottom :10px;
+}
+
+#presFitGroup{
+	width:410px;
+	height:130px;
+	background-color: #E31F67;
+	opacity:0.5;
+	
+	
+}
+
+#presFitTeam{
+	width:130px;
+	height:270px;
+	background-color: #eee;
+	opacity:0.7;
+	float:right;
+	border:1px solid #3a3a3c;
+}
+
+
+
+
+
+
+/*************************************/
+/*		FIT ONE						*/
+/***********************************/
+#fit_one{
+	background: url(../images/fond/18.jpg) no-repeat ;
+}
+
+
+#sousMenuFitOne{
+	margin-left:10px;
+	margin-top :30px;
+	position:relative;
+	
+}
+
+#sousMenuFitOne li{
+	display:inline;
+	margin-right:5px;
+
+}
+
+
+#slide2 #methode{
+	position :relative;
+	
+}
+
+#sousMenuFitOne a img, #sousMenuFitOne a:hover img, #sousMenuFitOne a:visited img{
+	text-decoration:none;
+	border:1px solid #eee;
+	outline:none;
+	
+}
+
+
+.light{
+background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+
+color: #FFF;
+cursor: pointer;
+display: block;
+font-size: 12px;
+font-weight: bold;
+height: 118px;
+position: absolute;
+width: 128px;
+z-index: 50;
+top:2px;
+padding:80px 10px 0 10px;
+font-size: 14px;
+text-decoration: none;
+text-align : center;
+opacity: 0;
+font-family: tahoma;
+}
+
+#enSavoirPlusDiagnostique {
+	background: url(../images/survolFitOneGris.png) no-repeat scroll 0 0 transparent;
+	left:2px;	 /*167px*/
+}
+
+
+#enSavoirPlusProgram {
+background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+	left:167px;	 /*167px*/
+}
+
+
+#enSavoirPlusSalle{
+	background: url(../images/survolFitOneGris.png) no-repeat scroll 0 0 transparent;
+	left:330px;	
+	
+}
+
+#enSavoirPlusAccompagnement{
+	background: url(../images/survolFitOneRose.png) no-repeat scroll 0 0 transparent;
+	left:494px;	
+}
+
+/****************************************************************************************/
+
+#myModal-diagnostic,#myModal-accompagnement,#myModal-program,#myModal-salle,#myModal-calendrier {
+	background-color: #eee;
+}
+/**************************************************************************************/
+
+#myModal-diagnostic h1, #myModal-program h1{
+	text-align: center;
+	width:400px;
+	margin:0 auto;
+	margin-top:20px;
+	background:url(../images/croix.png) no-repeat right;
+}
+
+#myModal-diagnostic h1+p {
+	text-align: center;
+	
+	margin:20px 28px 10px 28px;
+	padding:20px 20px;
+	
+}
+
+
+#myModal-diagnostic ul{
+	margin:0;
+	padding:10px 0 20px 0 ;
+	background: url(../images/fitOneDiag.png) no-repeat 50% 50%;
+	overflow: hidden;
+
+	
+}
+
+#myModal-diagnostic ul li p{
+	font-size: 11px;
+}
+
+
+
+#myModal-diagnostic ul li{
+	width : 260px;
+	float : left;
+		margin:0;
+	padding:0;
+	
+}
+
+
+#myModal-diagnostic ul li:nth-child(2n+1){
+
+	padding-left:20px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(2n+1) p,#myModal-diagnostic ul li:nth-child(2n+1) h2{
+	text-align: right;
+}
+
+
+
+#myModal-diagnostic ul li:nth-child(2n){
+
+	padding-left:140px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(3),#myModal-diagnostic ul li:nth-child(4){
+
+	padding-top:50px;
+	
+
+}
+
+#myModal-diagnostic ul li:nth-child(2n) p,#myModal-diagnostic ul li:nth-child(2n) h2{
+	text-align: left;
+}
+
+
+#myModal-diagnostic ul+p{
+	clear: both;
+	background-color:#e31f67;
+	margin:10px 20px;
+	padding:5px 10px;
+	border-radius: 10px;
+	font-size: 14px;
+	padding : 10px 10px;
+
+	
+}
+
+
+#myModal-diagnostic #FOtestMuscu{
+	
+	clear:both;
+}
+
+
+
+
+/*********************************************************************************************************************************/
+#myModal-salle h1{
+	text-align: center;
+	width:400px;
+	margin:0 auto;
+	margin-top:20px;
+	background:url(../images/croix.png) no-repeat right;
+}
+
+
+#myModal-salle ul{
+	width:600px;
+	height:450px;
+	margin:20px auto;
+	background: url(../images/fitOneEquip.png) no-repeat 50% 50%;
+}
+
+#myModal-salle h2{
+	text-align:left;
+	font-size:14px;
+	color:#E31F67;
+}
+
+
+#myModal-salle ul li{
+	position:absolute;
+	line-height: 1;
+}
+
+#myModal-salle #equi1{
+	top:135px;
+	left:345px;
+}
+#myModal-salle #equi2{
+	top:162px;
+	left:429px;
+}
+
+#myModal-salle #equi3{
+	top:190px;
+	left:465px;
+}
+
+#myModal-salle #equi4{
+	top:240px;
+	left:488px;
+}
+
+#myModal-salle #equi5{
+	top:307px;
+	left:492px;
+}
+
+#myModal-salle #equi6{
+	top:372px;
+	left:465px;
+}
+
+#myModal-salle #equi7{
+	top:407px;
+	left:424px;
+}
+
+#myModal-salle #equi8{
+	top:432px;
+	left:296px;
+}
+
+#myModal-salle #equi9{
+	top:402px;
+	left:98px;
+}
+#myModal-salle #equi10{
+	top:359px;
+	left:82px;
+}
+
+#myModal-salle #equi11{
+	top:307px;
+	left:96px;
+}
+
+#myModal-salle #equi12{
+	top:252px;
+	left:100px;
+}
+
+#myModal-salle #equi13{
+	top:187px;
+	left:96px;
+}
+
+#myModal-salle #equi14{
+	top:147px;
+	left:151px;
+}
+
+#myModal-salle .alignRight h2{
+	text-align: right;
+}
+
+
+
+
+
+/*********************************************************************************************************************************/
+#myModal-accompagnement h1{
+text-align: center;
+	width:500px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom :50px;
+	background:url(../images/croix.png) no-repeat right;
+} 
+
+#myModal-accompagnement p{
+	margin:0 60px 20px 60px;
+	text-align: justify;
+}
+
+
+#myModal-accompagnement ul{
+	padding:45px 58px 20px 57px;
+	
+	overflow: hidden;
+}
+
+
+#myModal-accompagnement ul li{
+	
+	height:100px;
+	background: url(../images/silhouette.png) no-repeat  50% 0%;
+	float :left;
+	margin:0 15px  ;
+	padding:0;
+	
+}
+#myModal-accompagnement ul li p {
+	margin:0;
+	padding:0;
+	padding-top:70px;
+	text-align: center;
+	font-size:12px;
+}
+
+
+
+/*********************************************************************************************************************************/
+
+.reveal-modal{
+	color:#3d3d3f;
+}
+
+
+
+
+
+/*     FIT ONE PROGRAM 					*/
+
+
+
+#myModal-program ul{
+
+	
+	background: url(../images/logoFitOne.png) no-repeat 50% 55%;
+	overflow: hidden;
+	
+}
+
+#myModal-program>p{
+	padding:50px 20px 10px 20px; 
+	text-align:center;
+}
+
+#myModal-program p+p{
+
+	padding-top:5px;
+	line-height: 1.4;
+	
+	
+}
+
+
+#myModal-program ul li {
+	width:280px;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+	margin-top:30px;
+	height:80px;
+	
+}
+
+#myModal-program ul li h2{
+	width:87px;
+	height:55px;
+	font-size:13px;
+	position:absolute;
+	background-color: #E31F67;
+	border-radius: 10px;
+	text-align: center;
+	color:white;
+	margin:0 5px;
+	padding-top:20px;
+}
+
+#myModal-program ul li:nth-child(even) h2{
+	left:0;
+}
+
+#myModal-program ul li:nth-child(odd) h2{
+	right:0;
+}
+
+#myModal-program ul li:nth-child(odd) p{
+	
+	text-align:right;
+	padding-top:10px;
+	padding-right:95px;
+	font-size:12px;
+}
+
+#myModal-program ul li:nth-child(even) p{
+	padding-top:10px;
+	text-align:left;
+		padding-left:95px;
+		font-size:12px;
+}
+
+
+#myModal-program ul li:nth-child(odd){
+	margin-left:50px;
+	clear: both;
+	
+}
+
+#myModal-program ul li:nth-child(even){
+	margin-left:50px;
+	
+}	
+
+#myModal-program ul li:nth-child(3), #myModal-program ul li:nth-child(4){
+	margin-top :80px;
+}
+
+
+
+
+
+
+
+
+/*************************************/
+/*		FIT GROUP					*/
+/***********************************/
+#fit_group{
+	background: url(../images/fond/4.jpg) no-repeat ;
+}
+
+#fit_group .head_page{
+	width:180px;
+}
+
+#fit_group>p{
+	width : 450px;
+}
+
+
+
+#accordion{
+	position :relative;
+	width: 671px; 
+	height: 600px;
+}
+
+#accordion ol{
+	list-style:none;
+}
+
+
+
+
+	#fit_group_menu {position :relative;width: 671px; height: 600px; overflow: hidden; }
+
+#fit_group_menu  li{position:absolute;  width: 605px;height:600px; }
+
+
+
+#fit_group_menu  li h2{ 
+	position: absolute; 
+	top: 0px;
+	right: 0px; 
+	width: 22px; 
+    
+    height:600px;
+    text-align: center;
+       
+    
+     
+    }
+    
+#fit_group_menu  li h2 img{
+	padding-top:5px;
+	border:none;
+}   
+ 
+
+/*#fit_group_menu  li.active h2{ background: #55354a; }*/
+
+
+
+/* Put the following in your IE stylesheet */
+
+#fit_group_menu  li h2
+{ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
+
+
+
+/* Manually place slides to begin */
+
+#fit_group-slide-1 { position: absolute; top: 0; right: 132px; z-index: 8; }
+
+#fit_group-slide-2 { position: absolute; top: 0; right: 110px; z-index: 7; }
+
+#fit_group-slide-3 { position: absolute; top: 0; right: 88px; z-index: 6;  }
+
+#fit_group-slide-4 { position: absolute; top: 0; right: 66px; z-index: 5;}
+
+#fit_group-slide-5{ position: absolute; top: 0; right:44px; z-index: 4;}
+
+#fit_group-slide-6{ position: absolute; top: 0; right: 22px; z-index: 3;}
+
+#fit_group-slide-7{ position: absolute; top: 0; right: 0px; z-index: 2;}
+
+
+
+
+#fit_group-slide-1 h2{background-color:#e31f67;}
+#fit_group-slide-2 h2{background-color:#979698;}
+#fit_group-slide-3 h2{background-color:#3f3e40;}
+#fit_group-slide-4 h2{background-color:#e31f67;}
+#fit_group-slide-5 h2{background-color:#979698;}
+#fit_group-slide-6 h2{background-color:#3f3e40;}
+#fit_group-slide-7 h2{background-color:#e31f67;}
+
+
+
+
+/* content */
+
+#fit_group_content{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:500px;
+			
+}
+
+#fit_group_content .contentFitGroup{
+	display:none;
+	position:absolute;
+}
+
+#fit_group_content .open{
+	display:block;
+	opacity:0;
+}
+
+
+#fit_group_content .active{
+	opacity:1;
+}
+
+
+#fit_group_content>li>p{
+			
+			color:white;
+			width:420px;
+			margin-bottom:30px;
+		}
+		
+
+
+#fit_group_content h1{
+	margin-top : 30px;
+	margin-left:10px;
+	padding-left:20px;
+	margin-bottom:15px;
+	background:url(../images/plus_blanc.png) no-repeat 0 50% ;
+	font-size : 18px;
+}
+
+#accordion h2 a:link, #accordion h2 a:visited, #accordion h2 a:active, #accordion h2 a:hover {
+	display:block;
+	font-size : 14px;
+	text-align: right;
+	margin-right:190px;
+	background: url(../images/logo-calendrier.png) no-repeat right;
+	line-height: 42px;
+	height: 42px;
+	padding-right : 50px;
+	padding-left : 20px;
+	color:#E31F67;
+	text-decoration:none;
+	font-size:13px;
+	
+	position:relative;
+    top:-30px;
+	z-index: 50;
+    
+    outline: none;
+	
+}
+
+#fit_group_content ul{
+	background-color: white;
+	width : 420px;
+	overflow: hidden;
+		margin-left :29px;
+	margin-bottom:30px;
+	 
+	
+}
+
+#fit_group_content ul li{
+	float:left;
+	width : 140px;
+	height:135px; 
+	margin:0;
+	padding:0;
+
+}
+
+
+#fit_group_content li ul li p{
+	color:black;
+	width :120px;
+	text-align: center;	
+	font-size: 10px;
+	margin:0;
+	padding : 0 5px;
+	
+}
+
+#fit_group_content li ul li p.texteGros{
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom:0;
+	
+}
+
+
+/*FIT GROUP BIKING */
+		#fit_group_content #content-fit_group-slide-1{
+					
+			width:480px;
+			
+			
+		}
+		
+		
+	#fit_group_content #content-fit_group-slide-1 ul{
+					
+			
+		
+			
+			
+		}
+		
+		
+		#fit_group_content #content-fit_group-slide-1 p{
+			
+			
+			margin-bottom:10px;
+					
+			
+		
+			
+			
+		}
+		
+		
+		
+	#fit_group_content ul li p.grosPlus{
+		font-size: 20px;
+	}	
+		
+
+		
+/*contenu fit biking */
+		#fit_group_content #content-fit_group-slide-2{
+		
+			
+			left:44px;
+			
+			
+
+			
+		}
+		
+		
+		
+		
+/*contenu fit barre */
+		#fit_group_content #content-fit_group-slide-3{
+			
+			left:66px;				
+		}
+		
+		#fit_group_content #content-fit_group-slide-3 h1{
+			
+			margin-top : 0px;
+			
+		}
+		
+		
+		#fit_group_content #content-fit_group-slide-3 p{
+			margin-top:5px;
+		}
+		
+		
+		#fit_group_content #content-fit_group-slide-4 h1, 
+		#fit_group_content #content-fit_group-slide-5 h1, 
+		#fit_group_content #content-fit_group-slide-6 h1, 
+		#fit_group_content #content-fit_group-slide-7 h1{
+		
+		
+			
+			
+			
+		}	
+
+/*contenu fit timer */
+		#fit_group_content #content-fit_group-slide-4{
+			
+			left:88px;
+			
+		}
+		
+/*contenu fit equilibre */
+		#fit_group_content #content-fit_group-slide-5{
+			
+			left:110px;
+			
+		}	
+
+/*contenu fit senior */
+		#fit_group_content #content-fit_group-slide-6{
+			
+			left:132px;
+			
+		}
+
+/*team training */
+		#fit_group_content #content-fit_group-slide-7{
+			
+			left:132px;
+			
+		}	
+
+/*team training */
+		#fit_group_content #content-fit_group-slide-8{
+			
+			left:154px;
+			
+		}	
+		
+		
+		
+	/****************************************************/
+	/*   Calendrier: 			*/
+/***************************/
+
+.contentFitGroup{
+	position: relative;
+} 
+
+#myModal-calendrier {
+	width : 840px;
+	height:426px;
+	background-color: #3D3D3F;
+    margin-left:-520px;
+
+}
+		
+#numJour{
+	display:none;
+}
+
+#myModal2{
+	width : 300px;
+	height : 200px;
+}	
+			
+	
+/*************************************/
+/*		FIT GROUP						*/
+/***********************************/
+#fit_team, #planning{
+	background: url(../images/fond/14.jpg) no-repeat ;
+
+}
+
+#fit_team .slide_inside h1{
+	margin-bottom:10px;
+	width :285px;	
+} 
+
+
+#fit_team ul.inline{
+	width :665px;
+	margin:15px auto;
+	margin-bottom:12px;
+	overflow: hidden;
+	text-align:center;
+	
+	
+}
+
+#fit_team ul.inline li{
+	background:url(../images/point.png) no-repeat right;
+	display :inline;
+		padding:0px 10px;
+	text-align:center;
+
+}
+
+#fit_team ul.inline+p{
+	margin-top :15px;
+	clear:both;
+}
+
+#fit_team ul.inline li:last-child{
+	background:none;
+	}
+
+
+
+#fit_team h2 {
+    
+text-align: center;
+}
+
+
+
+
+#fit_team h2 a:link, #fit_team h2 a:visited, #fit_team h2 a:active, #fit_team h2 a:hover {
+
+	background: url(../images/logo-calendrier.png) no-repeat right;
+    padding-right: 50px;
+    
+    height :50px;
+    display:inline-block;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#tabFitTeam{
+	background-color: white;
+	width : 500px;
+	overflow: hidden;
+	margin:23px auto;	
+}
+
+#tabFitTeam li{
+	float:left;
+	width : 145px;
+	height:110px; 
+	margin:0;
+	padding:0;
+	padding-left:20px;
+
+}
+
+#tabFitTeam li p.grosPlus{
+	font-size: 20px;
+}
+
+
+#tabFitTeam li p{
+	color:black;
+	width :120px;
+	text-align: center;	
+	font-size: 10px;
+	margin:0;
+	padding : 0 5px;
+	
+}
+
+#tabFitTeam li p.texteGros{
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom:0;
+	
+}
+
+
+
+
+/*************************************/
+/*		SALLE						*/
+/***********************************/
+#salle{
+	background: url(../images/fond/16.jpg) no-repeat ;
+}
+
+#salle p{
+	margin-left:0;
+}
+
+#salle #text_salle{
+
+	margin-top:53px;
+	
+	margin-left:35px;
+	padding-left : 15px;
+	margin-right:50px;
+	margin-bottom:30px;
+	
+}
+
+#salle #text_salle ul li{
+	padding-left:30px;
+}
+
+
+
+
+#salle img{
+	border:none;
+}
+
+#salle #containerImage .item{
+	
+}
+
+#salle #containerImage .item.w2 {  }
+
+.masonry {
+position:relative;
+  background: #EEE;
+  width: 600px;
+  
+  margin: 0 auto;
+}
+
+
+.masonry .item,
+.masonry .grid-sizer {
+  position:absolute;
+  
+  
+ 
+}
+
+
+#img1{
+	top:0;
+	left:0;
+}
+
+#img2{
+	top:0;
+	left:120px;
+}
+
+#img3{
+	top:0px;
+	left:360px;
+}
+
+#img4{
+	top:0;
+	left:480px;
+}
+
+#img5{
+	top:100px;
+	left:0px;
+}
+
+#img6{
+	top:100px;
+	left:360px;
+}
+
+#img7{
+	top:150px;
+	left:480px;
+}
+
+#img8{
+	top:200px;
+	left:120px;
+}
+
+#img9{
+	top:200px;
+	left:240px;
+}
+
+#img10{
+	top:250px;
+	left:0px;
+}
+
+#img11{
+	top:250px;
+	left:480px;
+}
+
+#img12{
+	top:300px;
+	left:120px;
+}
+
+/*
+.item.w1 { width:  20% }
+.item.w2 { width:  40% }
+.item.w3 { width:  30% }
+
+.item.h0 {  height:50px }
+.item.h1 {  height:100px }
+.item.h2 {  height:150px }
+.item.h3 {  height:200px }
+
+*/
+
+/*************************************/
+/*		PERSONNAL TRAINER			*/
+/***********************************/
+#personnalTrainer{
+	background: url(../images/fond/3.jpg) no-repeat ;
+}
+
+#personnalTrainer p{
+	margin-left:0;
+	margin-right:0;
+	text-align:left;
+}
+
+
+#personnalTrainer .slide_inside img{
+	border:0;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left :30px;
+	
+}
+
+#personnalTrainer #alex{
+	margin-left:30px;
+}
+
+
+#personnalTrainer #pascal{
+	margin-left:30px;
+}
+
+
+section.personnalT{
+	background: #3d3d3f;
+	float:left;	
+	width:180px;
+	height:580px;
+	margin-left:116px;
+	
+}
+
+
+section.personnalT h2{
+	font-size:15px;	
+	padding-bottom:20px;
+	text-align: center;
+	
+}
+
+
+#personnalTrainer .slide_inside>p{
+	clear : both;
+	padding-top:10px;
+	padding-left:30px;
+}
+
+
+
+/*************************************/
+/*		TARIFS						*/
+/***********************************/
+#tarifs{
+	background: url(../images/fond/1.jpg) no-repeat ;
+}
+
+#tarifs .slide_inside{
+}
+
+
+
+#tarifs p{
+		color:black;
+		margin-left:15px;
+		font-size :10px;
+	
+		margin-top:0;
+		padding-top:0;
+}
+#tarifs .slide_inside ul {
+	margin:15px;
+}
+
+#tarifs ul li h3{
+	font-size :14px;
+	color:#E31F67;	
+	text-transform:uppercase;
+}
+
+#tarifs ul li h3 span{
+	
+	color:black;	
+	
+}
+
+#tarifs ul li h3+p{
+	font-size :10px;
+	margin-right:0;
+	text-align: left;
+}
+
+#tarifsFitOne{
+	background-color: white;
+	overflow: hidden;
+	margin : 50px 50px 10px 50px;
+    clear:both;
+}
+
+#tarif_fit_one{
+	float:left;
+	width:280px;
+	background-color: #3d3d3f;
+height:150px;
+	
+	margin: 10px;
+}
+
+
+
+#tarif_fit_one ul{
+	margin-top:30px;
+}
+
+
+#tarifs #tarif_fit_one h1{
+	color:white;
+}
+
+#tarif_fit_buddy{
+	float:right;
+	width:240px;
+	margin: 10px;
+	background-color: #E31F67;
+}
+
+#tarif_fit_buddy ul li h3, #tarif_fit_group ul li h3{
+	color:white;
+}
+
+
+
+#tarifs .slide_inside h1{
+	font-weight: bold;
+	color:black;
+	margin-left:15px;
+	margin-top:10px;
+	margin-bottom:5px;
+	
+}
+
+#tarif_fit_buddy h1{
+	color: white;
+}
+
+
+#tarif_fit_buddy {
+	/*margin-top:142px;*/
+}
+
+#tarif_fit_buddy h3{
+font-size :14px;
+	
+	text-transform:uppercase;
+	margin-left: 14px;
+}
+
+
+ h1 sup{
+	font-size: 10px;
+	
+}
+
+#tarif_fit_group{
+	background-color: #E31F67;
+	margin : 10px 50px 25px 50px;
+	/*height:100px;*/
+}
+
+#tarif_fit_group h1{
+	color:#3d3d3f
+		
+		font-weight:bold;
+
+padding-right:30px;
+	
+	
+}
+
+
+#tarif_fit_group h1 span{
+	color:white;
+}
+
+
+#tarif_fit_buddy p.gauche{
+	text-align:right;
+font-size:8px;
+}
+
+
+#tarifs p.texteNombre{
+	margin-top:10px;
+	font-size:18px;
+text-transform:uppercase;
+	
+}
+
+
+#tarifs .slide_inside h1.cac{
+   float:left;
+    width:42%;
+}
+#tarifs .slide_inside h1.aligne{
+    text-align: right;
+}
+
+#tarifs .slide_inside h1.aligne+ul{
+    clear: both;
+    padding-top: 24px;
+}
+
+
+#tarif_fit_group h1+p{
+	
+   
+    color:white;
+	
+	padding-right:30px;
+}
+
+
+#tarif_fit_group{
+	margin-top:50px;
+}
+
+#tarif_fit_group ul{
+	padding-left:230px;
+	margin: 10px;
+}
+
+#slide5 h1.head_page{
+width : 430px;
+}
+
+#tarif_fit_group ul li{
+	padding-bottom:10px;
+}
+
+#tarif_fit_team{
+	background-color: white;
+	margin : 0px 50px;
+	height:120px;
+}
+
+#tarif_fit_team h1 span
+{
+	color:#e31f67;
+}
+
+#tarif_fit_team div{
+	
+	padding-left:10px;
+}
+
+#tarif_fit_team ul{
+	
+	padding-left:100px;
+}
+
+#tarif_fit_team ul li{
+	padding-top:5px;
+}
+
+
+
+/*
+
+#tarifs h3+p{
+	padding-top:5px;
+}
+
+
+
+
+
+
+
+#tarif_fit_one h3{
+	
+	background: #3d3d3f url(../images/plus_rose.png) no-repeat bottom right;
+	
+	float:left;
+}
+
+#tarifs ul{
+	margin-top:20px;
+}
+
+#tarifs ul li{
+height :85px;
+	margin:10px 20px;
+}
+
+
+
+#tarif_fit_one li{
+	
+	clear:both;
+	background: #3d3d3f;
+	
+}
+
+#tarif_fit_one li p{
+	margin-left: 110px;
+}
+
+#tarif_fit_one li:nth-child(1){
+	width : 420px;
+}
+
+#tarif_fit_one li:nth-child(2){
+	width : 340px;
+}
+
+#tarif_fit_one li:nth-child(3){
+	width : 260px;
+}
+
+
+
+
+#tarif_fit_one .prix{
+	color:#e31f67;
+}
+
+#tarifs p.detailPrix{
+	font-size:10px;
+}
+
+
+#tarif_fit_group .prixGris{
+	color:#3d3d3f;
+}
+
+
+
+#titre_tarif_fit_group{
+position:absolute;
+bottom:5px;
+right:20px;
+width:180px;
+color:white;
+}
+
+
+#tarif_fit_group{
+
+position:absolute;
+top:220px;
+right:0px;
+}
+
+#tarif_fit_group li{
+	float:right;
+	clear:both;
+	background: #e31f67;
+	
+}
+
+
+#tarif_fit_group p{
+	margin-left:5px;
+	text-align:right;
+	margin-right:110px;
+}
+
+
+#tarif_fit_group h3{
+	
+	background: #e31f67 url(../images/plus_gris.png) no-repeat top left;
+	
+	float:right;
+}
+
+
+
+#tarif_fit_group li:nth-child(1){
+	width : 260px;
+}
+
+#tarif_fit_group li:nth-child(2){
+	width : 340px;
+}
+
+#tarif_fit_group li:nth-child(3){
+	width : 420px;
+}*/
+
+
+/*************************************/
+/*		CONTACT						*/
+/***********************************/
+#contact{
+	background: url(../images/fond/8.jpg) no-repeat ;
+}
+
+.slide_inside_contact{
+	width:671px;
+	height:600px;
+	position: absolute;
+	top:40px;
+	left:293px;
+}
+
+.slide_inside_contact #hautContact{	
+	margin-top:300px;
+	background-color: #3d3d3f;
+	height:240px;
+}
+
+.slide_inside_contact .droite{
+	width:337px;
+}
+	
+.slide_inside_contact .gauche {
+	width : 334px;
+}
+
+.slide_inside_contact .droite, .slide_inside_contact .gauche {
+	float:left;
+}
+
+.slide_inside_contact #hautContact h1{
+	margin-top : 10px;
+}
+
+
+.slide_inside_contact #hautContact h1, .slide_inside_contact #hautContact p {
+	font-size: 18px;
+	text-align:right;
+	position:relative;
+	right:20px;
+	
+}
+
+
+
+.slide_inside_contact #facebook{	
+	margin-top : 40px;
+	float: right;
+	margin-right:20px;	
+}
+
+.slide_inside_contact #hautContact  h1{
+	float:right;
+	width:140px;
+	position:relative;
+	right:20px;
+	background:url(../images/plus_rose.png) no-repeat left center;
+}
+
+.slide_inside_contact #hautContact  h2{
+	clear:both;
+	float:right;
+	font-size: 16px;
+	margin-right:20px;
+}
+
+.slide_inside_contact #hautContact p{
+	clear:both;
+	font-size: 14px;
+	
+}
+
+
+
+
+
+.slide_inside_contact #basContact
+{
+	margin-top:10px;
+	background: #e31f67;
+	height:50px;
+	text-align:right;
+	font-size : 16px;
+	
+	
+}
+
+.slide_inside_contact #basContact p{
+	margin-right: 20px;
+}
+.slide_inside_contact #basContact p:first-of-type{
+	padding-top:7px;
+}
+
+
+
+.slide_inside_contact #prenezContact{
+	
+	width : 190px;
+	margin-top : 30px;
+	float:right;
+
+	background:url(../images/plus_rose.png) no-repeat left center;
+	
+}
+.slide_inside_contact #prenezContact a{
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+
+/***********************************/
+/* MODAL - INSCRIPTION DESCRIPTION: */
+/************************************/
+
+#modalInscriptionDesinscription{
+	position: absolute;
+	top:20%;
+	left:20%;
+	color: white;
+	z-index: 5000;
+	width: 500px;
+	height:300px;
+	background-color:#000000;
+}
+
+#modalInscriptionDesinscription h3{
+	margin-top:20px;
+	color:#E31F67;
+	font-size: 22px;
+	text-align:center;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;	
+}
+
+#modalInscriptionDesinscription #texteInvite{
+	font-size:20px;
+	margin-top :30px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#modalInscriptionDesinscription input{
+	width:200px;
+	font-size : 20px;
+	background-color: #E31F67;
+	border-radius: 5px;
+	color:white;
+	text-align:center;
+}
+
+#inscriptionCoursFitGroup p{
+	text-align:center;
+}
+
+#placementBouton p{
+	float: left;
+	width:36%;
+	margin:30px 7%;
+	background-color:#333333;
+	color:white;
+	height: 50px;
+	line-height:50px;
+	font-size:16px;
+	border-radius:5px;
+	
+}
+
+.reveal-modal .positionCroix
+{
+	font-size: 22px;
+	line-height: .5;
+position: absolute;
+top: 5px;
+right: 11px;
+color: #aaa;
+text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+font-weight: bold;
+cursor: pointer;
+}
+
+/*********************/
+/* PUB              */
+/*******************/
+
+#myModal-pub{
+    background: #E31F67;
+    color:black;
+    width:700px;
+    height:inherit;
+    top:250px;
+    font-weight: 900;
+}
+
+#myModal-pub h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    margin-top:30px;
+}
+
+#myModal-pub p{
+    font-size: 24px;
+    margin : 30px;
+    text-align:center;
+}
+
+#myModal-pub hr{
+    width:50%;
+    color:white;
+    margin:15px auto;
+    text-align: center;
+}
+
+
+#myModal-pub .close-reveal-modal {
+    font-size: 70px;
+    top:-40px;
+}
+
+#myModal-pub audio{
+    margin-bottom: 10px;
+}
+#pubNRJ{color:white;}
+
+
+

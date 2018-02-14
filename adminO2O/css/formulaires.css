@@ -1,0 +1,34 @@
+/* CSS Document */
+
+form#form1{
+  margin : 10px;
+  width : 100px ;
+}
+
+fieldset{
+  padding : 10px ;
+  margin : 10px 0;
+  border : solid 1px rgb(185,185,185) ;
+-moz-box-shadow: 1px 1px 0px 0px #cfcfcf;
+-webkit-box-shadow: 1px 1px 0px 0px #cfcfcf;
+-o-box-shadow: 1px 1px 0px 0px #cfcfcf;
+box-shadow: 1px 1px 0px 0px #cfcfcf;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=0);
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+  
+}
+
+legend{
+  padding : 0 5px 0 5px;
+  font-weight : bold ;
+}
+
+input{ display : block ; padding : 5px ; margin : 2px 0 5px 0 ;}
+input[type="number"]{ width : 75px ;}
+input[type="submit"]{margin : 2px auto ;}
+
+p{
+  margin : 5px 0;
+}

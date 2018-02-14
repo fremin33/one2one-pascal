@@ -1,0 +1,66 @@
+body{  font-family: Verdana, Tahoma, arial, sans-serif; }
+
+nav a{ text-decoration:none ; }
+
+/* conteneur général */
+div#container{ }
+
+/***** Entete ********/
+/********************/ 
+#container>header{}
+
+#container>header h1{ font: bolder 40px 'Trebuchet MS', Arial, Sans-serif; letter-spacing: -2px; }
+
+#container>header h1 a{ text-decoration: none; }
+
+#container>header h2{ font: bold 20px 'Trebuchet MS', Arial, Sans-serif; }
+ /****************/
+/* header links */
+/***************/
+#header-links {
+	font: bold 14px"Trebuchet MS", Arial, Tahoma, Sans-serif;
+	list-style-type : none ;
+	font-weight: bold;
+}
+
+#header-links a {	
+	text-decoration: none;
+}
+
+
+/***** Menu **********/
+/********************/ 
+#container>nav ul{ list-style-type : none ; font: bold 16px/40px "trebuchet MS", Arial, Tahoma, Sans-serif; }
+
+
+
+/***** Corps *********/
+/********************/ 
+div#corps{
+
+}
+
+/***** Contenu principal ********/
+/*******************************/ 
+#corps>article{ font-family : calibri ; }
+
+#corps>article h3{
+	font-family : "trebuchet MS", Arial ; 	font-size : 1.5em ;
+	font-weight: bold;}
+
+#corps>articlel p{ font-size : 1em ; }
+
+/***** Contenu secondaire *******/
+/*******************************/
+#corps>aside{ font-size : 90%; font-family : calibri ; }
+
+
+/***** Pied de page ********/
+/**************************/
+
+#container>footer { font-size: 90%;}
+
+#container>footer a { font-weight:normal ; text-decoration: none;}
+
+#container>footer a:hover{ text-decoration: underline;}
+ 

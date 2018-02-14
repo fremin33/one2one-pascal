@@ -1,0 +1,139 @@
+/* ______________________________________________________________________ */
+@font-face {
+    font-family: 'Helvetica-Condensed';
+    src: url('../font/helvetica-condensed.eot');
+    src: url('../font/helvetica-condensed.eot?#iefix') format('embedded-opentype'),
+    /* url('../font/helvetica-condensed.woff') format('woff') */
+    url('../font/helvetica-condensed.ttf') format('truetype'),
+    url('../font/helvetica-condensed.svg#helvetica-condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticacondensed-light';
+    src: url('../font/helvetica-condensed-light-webfont.eot');
+    src: url('../font/helvetica-condensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/helvetica-condensed-light-webfont.woff') format('woff'),
+    url('../font/helvetica-condensed-light-webfont.ttf') format('truetype'),
+    url('../font/helvetica-condensed-light-webfont.svg#helveticacondensed-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CenturyGothic-Bold';
+    src: url('../font/gotb.eot');
+    src: url('../font/gotb.eot?#iefix') format('embedded-opentype'),
+    url('../font/gotb.woff') format('woff'),
+    url('../font/gotb.ttf') format('truetype'),
+    url('../font/gotb.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../font/got.eot');
+    src: url('../font/got.eot?#iefix') format('embedded-opentype'),
+    url('../font/got.woff') format('woff'),
+    url('../font/got.ttf') format('truetype'),
+    url('../font/got.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CenturyGothic-BoldItalic';
+    src: url('../font/gotbi.eot');
+    src: url('../font/gotbi.eot?#iefix') format('embedded-opentype'),
+    url('../font/gotbi.woff') format('woff'),
+    url('../font/gotbi.ttf') format('truetype'),
+    url('../font/gotbi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturyGothic-Italic';
+    src: url('../font/gotci.eot');
+    src: url('../font/gotci.eot?#iefix') format('embedded-opentype'),
+    url('../font/gotci.woff') format('woff'),
+    url('../font/gotci.ttf') format('truetype'),
+    url('../font/gotci.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'helvetica_neuelightcondobl';
+    src: url('../font/helveticaneue-lightcondobl-webfont.eot');
+    src: url('../font/helveticaneue-lightcondobl-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/helveticaneue-lightcondobl-webfont.woff') format('woff'),
+    url('../font/helveticaneue-lightcondobl-webfont.ttf') format('truetype'),
+    url('../font/helveticaneue-lightcondobl-webfont.svg#helvetica_neuelightcondobl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Helvetica-Condensed-Oblique';
+    src: url('../font/helvetica-condensed-oblique.eot');
+    src: url('../font/helvetica-condensed-oblique.eot?#iefix') format('embedded-opentype'),
+    url('../font/helvetica-condensed-oblique.woff') format('woff'),
+    url('../font/helvetica-condensed-oblique.ttf') format('truetype'),
+    url('../font/helvetica-condensed-oblique.svg#helvetica-condensed-oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---- WRAPPER----*/
+/*
+p{
+	text-transform : uppercase;
+	font-size:16px;
+}
+
+#p1{
+	font-family: Helvetica-Condensed;
+}
+
+#p2{
+	font-family: helveticacondensed-light;
+}
+
+#p3{
+	font-family: CenturyGothic-Bold;
+}
+
+#p4{
+	font-family: CenturyGothic;
+}
+
+#p5{
+	font-family: CenturyGothic-BoldItalic;
+}
+
+#p6{
+	font-family: CenturyGothic-Italic;
+}
+
+#p7{
+	font-family: helvetica_neuelightcondobl;
+}
+
+#p8{
+	font-family: Helvetica-Condensed-Oblique;
+}
+
+*/
+
+
+
+
+

@@ -1,0 +1,191 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+  background:#f9f9f9;
+}
+
+h1 {
+  margin-top:7%;
+  text-align:center;
+  width:100%;
+  color:#333;
+  font:bold 32px Arial;
+}
+
+form {
+	margin:auto;
+ margin-top:20px;
+  
+  box-shadow: 4px 4px 14px #aaa;
+  border-radius:8px;
+  backgound:#ffffff;
+  border:none;
+  position:relative;
+  overflow:hidden;
+}
+
+form fieldset {
+ width:35%;
+  border:none;
+  float:left;
+  border-right:1px solid #eee;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+form fieldset#formules{
+
+	
+	 width:60%;
+}
+
+#fitOne, #fitGroup{
+		background-color:#000000;
+}
+
+#fitDuo, #fitTeam{
+	background-color:#E31F67;
+}
+
+#fitTrio,#crossTraining{
+	background-color:#3D3D3F;
+}
+
+
+form fieldset#fieldOne, form fieldset#fieldGroup, form fieldset#fieldTeam{
+	color:white;
+	min-height : 280px;
+}
+
+
+form fieldset p {
+  margin:10px 0 20px 5px;
+  font: 14px Arial;
+}
+
+form fieldset#infoClient p input {
+  width: 160px;
+  padding: 2px 2px 2px 5px;
+  margin-left:12px;
+  position: absolute;
+  left:110px;
+}
+
+form fieldset#infoClient p input[type="date"]{
+	width:150px;
+	position:static;
+	
+} 
+
+form  p input[type="submit"] {
+ clear:both;
+  padding:15px 6px 15px 6px;
+  width:210px;
+  font:bold 12px Arial;
+  color:#555;
+  text-transform:uppercase;
+  background:f9f9f9;
+  border:1px solid #ccc;
+ display:block;
+  margin-top:5px;
+   margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow:2px 2px 6px #ddd;
+  cursor:pointer;
+}
+
+form fieldset#infoClient:last-child p{
+	float:right;
+	text-align:right;
+	padding-left : 30px;
+}
+
+form textarea{
+	width : 160px;
+	height: 100px;
+	
+  margin-left:115px;
+}
+
+form  p input[type="submit"]:hover {
+  background:#999;
+  color:#fff;
+  
+}
+
+.formule{
+	margin-left:40px;	
+}
+
+form fieldset#infoClient p input[type="checkbox"] {
+	left:150px;
+	
+}
+
+
+.dateF{
+		margin-top: 30px;
+}
+
+
+.hauteurDate{
+	margin-top:65px;
+}
+
+p.centerAlign{
+	width:940px;
+	margin-top :30px;
+	clear:both;
+	text-align: center;
+}
+.miseEnForme{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom:30px;
+}
+
+
+form fieldset#formules{
+	color:white;
+}
+
+form fieldset#formules input[type="text"]{
+	width : 30px;
+}
+
+form fieldset#formules td{
+	text-align:center;
+}
+
+form fieldset#formules tr{
+	min-height: 30px;
+}
+
+form fieldset#formules input{
+	margin:10px 0;
+}
+
+form fieldset#formules input[type="date"]{
+	width : 140px;
+}
+form fieldset#formules th.formu{
+	text-align:center;
+	width :40%;
+}
+form fieldset#formules th.inputCheck{
+	text-align:center;
+	width :10%;
+}
+form fieldset#formules th.nb{
+	text-align:center;
+	width :18%;
+}
+form fieldset#formules th.date{
+	text-align:center;
+	width :32%;
+}
